@@ -9,7 +9,12 @@
 	.footer {
 		background:lightgrey;
 		padding:10px;
-		margin-top: -29px;
+	}
+	.jumbotron {
+		margin-bottom:0;
+		background: white;
+		border-right: 1px solid grey;
+		border-radius: 0;
 	}
 </style>
 <body>
@@ -28,18 +33,19 @@
         </form>
       </div>
     </nav>
-
+	<div class="container-fluid">
     <div class="row">
-    	<div class="col-md-8">
+    	<div class="col-md-10">
  		  <div class="jumbotron">
           <h1 class="display-3">Balut !</h1>
-          <p>Pernah embrio ayam atau bebek, yang belum memiliki tulang tetapi sudah mempunyai paruh dan bulu ?</p>
+          <p>Mau coba yang gabiasa ? Sajian Telur yang Tidak ini tidak biasa<p>Pernah embrio ayam atau bebek, yang belum memiliki tulang tetapi sudah mempunyai paruh dan bulu ?</p><p class="text-muted">Balut memang makanan yang berasal dari telur bebek. Namun sajiannya berbeda dari biasanya, karena kita harus memakan 
+telur dengan embrio yang terdapat di dalamnya sekaligus. Saat dimakan, teksturnya agak berdaging dan garing.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Lebih Lanjut</a></p>
 
 	</div></div>
-	<div class="col-md-4">
+	<div class="col-md-2">
 		<br><br><br><br>
-		<h2>Menu</h2>
+		<h2>Menu</h2><hr>
 		<ul>
 				<li>Cara membuat</li>
 					<li>Informasi</li>
@@ -50,7 +56,8 @@
 					<li>Variasi Makanan</li>
 		</ul>
 	</div>
-	<div class="container-fluid">
+	</div>
+	<div class="col-md-2">
 		<div class="footer text-center">
 			Copyright BalutFood 2017
 		</div>
