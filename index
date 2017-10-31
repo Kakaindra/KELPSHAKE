@@ -16,6 +16,11 @@
 		border-right: 1px solid grey;
 		border-radius: 0;
 	}
+	.btn-flat {
+		border-radius: 0;
+		margin-bottom: 5px;
+		cursor: pointer;
+	}
 </style>
 <body>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -24,14 +29,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
     </nav>
 	<div class="container-fluid">
     <div class="row">
@@ -40,25 +37,22 @@
           <h1 class="display-3">Balut !</h1>
           <p>Mau coba yang gabiasa ? Sajian Telur yang Tidak ini tidak biasa<p>Pernah embrio ayam atau bebek, yang belum memiliki tulang tetapi sudah mempunyai paruh dan bulu ?</p><p class="text-muted">Balut memang makanan yang berasal dari telur bebek. Namun sajiannya berbeda dari biasanya, karena kita harus memakan 
 telur dengan embrio yang terdapat di dalamnya sekaligus. Saat dimakan, teksturnya agak berdaging dan garing.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Lebih Lanjut</a></p>
+          <p><a class="btn btn-primary btn-lg btn-flat" href="#" role="button">Lebih Lanjut</a></p>
 
 	</div></div>
 	<div class="col-md-2">
-		<br><br><br><br>
-		<h2>Menu</h2><hr>
-		<ul>
-				<li>Cara membuat</li>
-					<li>Informasi</li>
-					<li>Sejarah</li>
-					<li>Manfaat</li>
-					<li>Dimana Menemukan</li>
-					<li>Kreasi</li>
-					<li>Variasi Makanan</li>
-		</ul>
+		<br><br><br><h2>Menu</h2><hr>
+		<a href="#"><button class="btn btn-info btn-flat">Cara Membuat</button></a><br>
+		<a href="#"><button class="btn btn-info btn-flat">Informasi</button></a><br>
+		<a href="#"><button class="btn btn-info btn-flat">Sejarah</button></a><br>
+		<a href="#"><button class="btn btn-info btn-flat">Manfaat</button></a><br>
+		<a href="#"><button class="btn btn-info btn-flat">Dimana Menemukan</button></a><br>
+		<a href="#"><button class="btn btn-info btn-flat">Kreasi</button></a><br>
+		<a href="#"><button class="btn btn-info btn-flat">Variasi Makanan</button></a><br>
 	</div>
 	</div>
-	<div class="col-md-2">
-		<div class="footer text-center">
+	<div class="col align-self-center">
+		<div class="footer text-center col-md-2">
 			Copyright BalutFood 2017
 		</div>
 	</div>
