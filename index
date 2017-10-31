@@ -13,13 +13,15 @@
 	.jumbotron {
 		margin-bottom:0;
 		background: white;
-		border-right: 1px solid grey;
+		border-right:1px solid grey;
 		border-radius: 0;
 	}
 	.btn-flat {
 		border-radius: 0;
 		margin-bottom: 5px;
 		cursor: pointer;
+	}
+	.aa {
 	}
 </style>
 <body>
@@ -35,12 +37,16 @@
     	<div class="col-md-10">
  		  <div class="jumbotron">
           <h1 class="display-3">Balut !</h1>
-          <p>Mau coba yang gabiasa ? Sajian Telur yang Tidak ini tidak biasa<p>Pernah embrio ayam atau bebek, yang belum memiliki tulang tetapi sudah mempunyai paruh dan bulu ?</p><p class="text-muted">Balut memang makanan yang berasal dari telur bebek. Namun sajiannya berbeda dari biasanya, karena kita harus memakan 
-telur dengan embrio yang terdapat di dalamnya sekaligus. Saat dimakan, teksturnya agak berdaging dan garing.</p>
+          <p>Mau coba yang gabiasa ? Sajian Telur yang Tidak ini tidak biasa<p>Pernah embrio ayam atau bebek, yang belum memiliki tulang tetapi sudah mempunyai paruh dan bulu ?</p><p class="text-muted">Balut memang makanan yang berasal dari telur bebek. Namun sajiannya berbeda dari biasanya<br> karena kita harus memakan 
+telur dengan embrio yang terdapat di dalamnya sekaligus.<br>Saat dimakan, teksturnya agak berdaging dan garing.</p>
+<p class="text-muted">Setiap telur akan berbeda teksturnya ketika dimakan.<br>Ini karena telur yang lebih muda biasanya memiliki tekstur yang 
+lebih lembut.<br>Untuk telur yang berumur 18 hari, telur kuning akan terasa seperti telur rebus tapi lebih berair dan 
+telur putih akan lebih kenyal.<br> Telur yang berumur 21 hari akan terasa lebih garing dibandingkan telur yang berumur 
+18 hari.</p>
           <p><a class="btn btn-primary btn-lg btn-flat" href="#" role="button">Lebih Lanjut</a></p>
 
 	</div></div>
-	<div class="col-md-2">
+	<div class="col-md-2 aa">
 		<br><br><br><h2>Menu</h2><hr>
 		<a href="#"><button class="btn btn-info btn-flat">Cara Membuat</button></a><br>
 		<a href="#"><button class="btn btn-info btn-flat">Informasi</button></a><br>
