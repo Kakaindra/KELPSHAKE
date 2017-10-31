@@ -1,4 +1,4 @@
 balut
-Tempat penyimpanan file :
-gambar : assets/gambar/
+Tempat penyimpanan file :<br>
+gambar : assets/gambar/<br>
 text   : assets/text/
